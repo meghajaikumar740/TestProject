@@ -49,13 +49,14 @@ public class WordCount {
 			ArrayList list = e.getValue();
 			Iterator itr = list.iterator();
 			int wordCount = 0;
-			System.out.print(e.getKey() + " -- ");
-			System.out.print("Line numbers: ");
+			System.out.print("-- "+e.getKey());
+			
+			System.out.print("\nCount: "+wordCount);
+			System.out.print("| Line numbers: ");
 			while (itr.hasNext()) {
 				System.out.print(itr.next() + ", ");
 				wordCount ++;
 			}
-			System.out.print("| Count: "+wordCount);
 			System.out.println();
 			
 		}
