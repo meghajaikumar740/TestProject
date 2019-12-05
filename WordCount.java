@@ -1,3 +1,5 @@
+// Program to count the number of every word in a text file
+//
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
